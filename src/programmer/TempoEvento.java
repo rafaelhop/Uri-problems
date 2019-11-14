@@ -21,11 +21,11 @@ public class TempoEvento {
 		
 		int horaIni = Integer.parseInt(horaInicial.substring(0,2));
 		int minIni = Integer.parseInt(horaInicial.substring(3,5));
-		int segIni = Integer.parseInt(horaInicial.substring(6,7));
+		int segIni = Integer.parseInt(horaInicial.substring(6,8));
 		
 		int horaFin = Integer.parseInt(horaFinal.substring(0,2));
 		int minFin = Integer.parseInt(horaFinal.substring(3,5));
-		int segFin = Integer.parseInt(horaFinal.substring(6,7));
+		int segFin = Integer.parseInt(horaFinal.substring(6,8));
 		
 		int dias = diaF - diaI;
 		int horas  = horaFin - horaIni;
